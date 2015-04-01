@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+apt-get update
+apt-get install wget
+wget -q -O /root/install.sh https://raw.githubusercontent.com/docker/docker/master/hack/install.sh
+bash /root/install.sh
